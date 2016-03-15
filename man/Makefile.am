@@ -42,7 +42,7 @@ SUFFIXES = .man .pod
 
 .pod.man:
 	pod2man --center="User Commands" \
-		--date="$(date)" \
+		--date="date" \
 		--errors="none" \
 		--fixed="CW" \
 		--fixedbold="CB" \
